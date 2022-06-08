@@ -1,0 +1,23 @@
+.intro-header-text {
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+}
+
+.intro-subheader-text {
+  font-size: clamp(1.75rem, 2.65vw, 3rem);
+}
+
+.text {
+  font-size: clamp(1rem, 2vw, 1.45rem);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}

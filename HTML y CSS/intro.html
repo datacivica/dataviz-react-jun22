@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/text.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/@fontsource/barlow@4.5.7/latin.css"
+      rel="stylesheet"
+    />
 
-    <title>Introducción</title>
+    <title>Introducción con estilos CSS</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container mx-auto">
+      <section>
+        <h1 id="intro-header" class="intro-header-text">Introducción - Pablo Martínez</h1>
+        <p class="text">
+          Mi nombre es
+          <strong>Pablo Martínez</strong>
+          y estoy hablando sobre
+          <em>HTML</em>
+          para el curso de
+          <strong>
+            <em> Data Civica </em>
+          </strong>
+          sobre visualizaciones y mapas web con React
+        </p>
+
+        <div id="intro-img-container" class="mx-auto">
+          <img
+            src="https://http2.mlstatic.com/cachorros-pastor-aleman-pedigree-internacional-fcm-D_NQ_NP_817081-MLM27276383157_042018-F.jpg"
+            alt="2 cachorros pastores alemanes"
+            class="responsive-img"
+          />
+        </div>
+      </section>
+      <section>
+        <h2 id="intro-subheader" class="intro-subheader-text">¿Quién soy?</h2>
+        <p class="text">
+          Formo parte del equipo de <span>Tecnología de Data Cívica</span>. Me
+          suelo enfocar en el desarrollo front-end de las aplicaciones web.
+        </p>
+
+        <div class="text">
+          En orden, lo que me gusta hacer es:
+          <ol class="card-grid no-bullets-list">
+            <li class="card text-eft card-shadow">Salir con mis amigues 👯</li>
+            <li class="card text-eft card-shadow">Jugar videojuegos 🎮</li>
+            <li class="card text-eft card-shadow">Programar 👨‍💻</li>
+          </ol>
+        </div>
+
+        <div class="text">
+          Sin orden en específico, me gusta:
+          <ul class="card-grid no-bullets-list">
+            <li class="card text-eft card-shadow">Los perritos 🐕</li>
+            <li class="card text-eft card-shadow">Mi novia 👩</li>
+            <li class="card text-eft card-shadow">Hacer ejercicio 🏋️</li>
+            <li class="card text-eft card-shadow">Cotorrear 💬</li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="w-full text-center">
+        <a class="link bold text py-2" href="https://datacivica.org" target="_blank" rel="noopener">
+          Ir al sitio de Data Cívica
+        </a>
+      </div>
+    </main>
+  </body>
 </html>
