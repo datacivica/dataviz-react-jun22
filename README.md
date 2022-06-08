@@ -4,7 +4,7 @@ Este curso tiene como objetivo introducir a las participantes al desarrollo web 
 
 ## Software requerido
 - [Node.js LTS](https://nodejs.org/en/download/)
-- Un editor de texto. En Data Cívica usamos comunmente [VSCodium](https://github.com/VSCodium/vscodium/releases) o [Visual Studio Code](https://code.visualstudio.com/)
+- Un editor de texto. En Data Cívica usamos comunmente [VSCodium](https://github.com/VSCodium/vscodium/releases) o [Visual Studio Code](https://code.visualstudio.com/). Existen otras alternativas como [Sublime Text](https://www.sublimetext.com/) o [Brackets](https://brackets.io/). Para usuaries más avanzades están opciones como [Vim](https://www.vim.org/download.php) o [GNU Emacs](https://www.gnu.org/software/emacs/)
 
 ### Extensiones recomendadas
 Si optaste por descargar VSCodium o Visual Studio Code, recomenamos las siguientes extensiones que pueden descargar desde la tienda de extensiones del editor de texto:
