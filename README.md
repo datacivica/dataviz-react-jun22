@@ -18,14 +18,18 @@ Si optaste por descargar VSCodium o Visual Studio Code, recomenamos las siguient
 ## Tabla de contenidos
 El siguiente índice muestra las carpetas asignadas a cada tema del temario:
 <!-- TOC -->
-- [Propedéutico]([#tabla-de-contenidos](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico))
-  - [Sesión 1](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201)
-    - [Tema 1: HTML](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML)
-    - [Tema 2: CSS](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML%20y%20CSS)
-- [Aspectos técnicos](#aspectos-técnicos)
-  - [Tecnologías elegidas](#tecnologías-elegidas)
-  - [Uso y desarrollo del proyecto](#uso-y-desarrollo-del-proyecto)
-  - [Construcción y despliegue del proyecto](#construcción-y-despliegue-del-proyecto)
+- [Software requerido](#software-requerido)
+  - [Extensiones recomendadas](#extensiones-recomendadas)
+- Temario
+  - [Propedéutico]([#tabla-de-contenidos](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico))
+    - [Sesión 1](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201)
+      - [Tema 1: HTML](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML)
+      - [Tema 2: CSS](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML%20y%20CSS)
+- [Fuentes](#fuentes)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [JS](#js)
+
 <!-- /TOC -->
 
 
