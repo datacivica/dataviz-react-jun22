@@ -73,7 +73,7 @@ body {
   max-width: 1000px;
 }
 
-.card-shadow {
+.shadow {
   box-shadow: 2px 5px 9px 0 rgba(0, 0, 0, 0.15);
 }
 
