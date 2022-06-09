@@ -40,10 +40,13 @@ La siguiente lista contiene documentación a partir de la cual basamos una parte
 - [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - [https://es.wikipedia.org/wiki/Lenguaje_de_marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado)
 - [https://developer.mozilla.org/es/docs/Web/HTML/Viewport_meta_tag](https://developer.mozilla.org/es/docs/Web/HTML/Viewport_meta_tag)
+- [https://web.karisma.org.co/mas-autonomia-digital-menos-barreras-guia-bpasica-de-accesibilidad-web-y-redes-sociales/](https://web.karisma.org.co/mas-autonomia-digital-menos-barreras-guia-bpasica-de-accesibilidad-web-y-redes-sociales/)
 
 ### CSS
 - [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
 - [https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+- [https://developer.mozilla.org/es/docs/Web/CSS/Reference](https://developer.mozilla.org/es/docs/Web/CSS/Reference)
+- [https://www.w3schools.com/cssref/](https://www.w3schools.com/cssref/)
 - [https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 - [https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Web_fonts](https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Web_fonts)
 
