@@ -36,6 +36,10 @@ El siguiente índice muestra las carpetas asignadas a cada tema del temario:
 ## Fuentes
 La siguiente lista contiene documentación a partir de la cual basamos una parte del contenido del curso
 
+### Recursos
+- [Grabaciones del curso](https://youtube.com/playlist?list=PLhsNbv0MW-cZdvGDDxrqqhOpqlj7nJmJo)
+- [Archivos y presentaciones del curso](https://drive.google.com/drive/folders/1px8LN839WM53n5n-5VFRQfva086atQ2P?usp=sharing)
+
 ### HTML
 - [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - [https://es.wikipedia.org/wiki/Lenguaje_de_marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado)
