@@ -26,9 +26,11 @@ El siguiente índice muestra las carpetas asignadas a cada tema del temario:
       - [Tema 1: HTML](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML)
       - [Tema 2: CSS](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML%20y%20CSS)
 - [Fuentes](#fuentes)
+  - [Recursos](#recursos)
   - [HTML](#html)
   - [CSS](#css)
   - [JS](#js)
+  - [React](#react)
 
 <!-- /TOC -->
 
