@@ -26,15 +26,21 @@ El siguiente índice muestra las carpetas asignadas a cada tema del temario:
       - [Tema 1: HTML](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML)
       - [Tema 2: CSS](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML%20y%20CSS)
 - [Fuentes](#fuentes)
+  - [Recursos](#recursos)
   - [HTML](#html)
   - [CSS](#css)
   - [JS](#js)
+  - [React](#react)
 
 <!-- /TOC -->
 
 
 ## Fuentes
 La siguiente lista contiene documentación a partir de la cual basamos una parte del contenido del curso
+
+### Recursos
+- [Grabaciones del curso](https://youtube.com/playlist?list=PLhsNbv0MW-cZdvGDDxrqqhOpqlj7nJmJo)
+- [Archivos y presentaciones del curso](https://drive.google.com/drive/folders/1px8LN839WM53n5n-5VFRQfva086atQ2P?usp=sharing)
 
 ### HTML
 - [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
@@ -59,3 +65,8 @@ La siguiente lista contiene documentación a partir de la cual basamos una parte
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals)
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules)
+
+### React
+- [La nueva documentación de React. Está muy buena. La recomendamos mucho](https://beta.reactjs.org/)
+- [https://reactjs.org/docs/hooks-reference.html](https://reactjs.org/docs/hooks-reference.html)
+- [https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/](https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/)
