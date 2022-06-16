@@ -63,3 +63,8 @@ La siguiente lista contiene documentación a partir de la cual basamos una parte
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals)
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 - [https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules)
+
+### React
+- [La nueva documentación de React. Está muy buena. La recomendamos mucho](https://beta.reactjs.org/)
+- [https://reactjs.org/docs/hooks-reference.html](https://reactjs.org/docs/hooks-reference.html)
+- [https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/](https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/)
