@@ -1,9 +1,18 @@
 import logo from "./logo.svg";
+import loQueDiga, { funcionQueRegresaHola as hola } from './utils/funciones';
 import "./App.css";
+
+// Componentes
+import Button from "./components/Button";
 
 function App() {
   const nombre = "Data Cívica";
   const str = `Hola, ${nombre}`;
+  const etiquetas = {
+    etiqueta: 'hola',
+    etiqueta2: 'adiós',
+  };
+
 
   console.log(str);
 
@@ -15,7 +24,7 @@ function App() {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <p>¡Hola, {nombre}!</p>
+          <p>¡{loQueDiga('Hey,')} {hola()} {nombre}!</p>
           <a
             data-toggle="tooltip"
             className="App-link"
@@ -25,12 +34,13 @@ function App() {
           >
             Learn React
           </a>
-          <div className="form">
-            <label htmlFor='1'>
-              Etiqueta
-            </label>
-            <input id='1' type='input' placeholder="Text"/>
-          </div>
+          <Button {...etiquetas}>
+            <ul>
+              <li>
+                Hola
+              </li>
+            </ul>
+          </Button>
         </header>
       </div>
       <div>Adiós</div>
