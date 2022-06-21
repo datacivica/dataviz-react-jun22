@@ -5,12 +5,14 @@ const Button = ({ etiqueta, etiqueta2, children }) => {
 
   const handleClick = () => {
     setEtiquetaClick(etiquetaClick + 1);
-  }
+  };
 
-  return <button onClick={handleClick}>
-    {etiqueta2}
-    {etiqueta || children}
-  </button>;
+  return (
+    <button onClick={handleClick}>
+      {etiqueta2}
+      {etiqueta || children}
+    </button>
+  );
 };
 
 export default Button;
