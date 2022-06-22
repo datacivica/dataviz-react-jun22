@@ -18,19 +18,16 @@ Si optaste por descargar VSCodium o Visual Studio Code, recomenamos las siguient
 ## Tabla de contenidos
 El siguiente índice muestra las carpetas asignadas a cada tema del temario:
 <!-- TOC -->
-- [Software requerido](#software-requerido)
-  - [Extensiones recomendadas](#extensiones-recomendadas)
-- Temario
-  - [Propedéutico]([#tabla-de-contenidos](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico))
-    - [Sesión 1](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201)
-      - [Tema 1: HTML](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML)
-      - [Tema 2: CSS](https://github.com/datacivica/dataviz-react-jun22/tree/main/Proped%C3%A9utico/Sesi%C3%B3n%201/HTML%20y%20CSS)
-- [Fuentes](#fuentes)
-  - [Recursos](#recursos)
-  - [HTML](#html)
-  - [CSS](#css)
-  - [JS](#js)
-  - [React](#react)
+- [Introducción al desarrollo de mapas y visualizaciones web con React](#introducción-al-desarrollo-de-mapas-y-visualizaciones-web-con-react)
+  - [Software requerido](#software-requerido)
+    - [Extensiones recomendadas](#extensiones-recomendadas)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Fuentes](#fuentes)
+    - [Recursos](#recursos)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JS](#js)
+    - [React](#react)
 
 <!-- /TOC -->
 
@@ -70,3 +67,5 @@ La siguiente lista contiene documentación a partir de la cual basamos una parte
 - [La nueva documentación de React. Está muy buena. La recomendamos mucho](https://beta.reactjs.org/)
 - [https://reactjs.org/docs/hooks-reference.html](https://reactjs.org/docs/hooks-reference.html)
 - [https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/](https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained/)
+- [Curso introductorio de freeCodeCamp.org en español](https://www.youtube.com/watch?v=6Jfk8ic3KVk)
+- [Curso para principiantes de freeCodeCamp.org en inglés](https://www.youtube.com/watch?v=nTeuhbP7wdE)
