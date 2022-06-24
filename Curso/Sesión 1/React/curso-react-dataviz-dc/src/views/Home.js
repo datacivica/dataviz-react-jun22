@@ -193,6 +193,10 @@ const Home = () => {
             <button className="btn bg-primary">Get Started</button>
           </div>
         </div>
+
+        <div className="w-full h-[600px]">
+          <MyResponsiveStream />
+        </div>
       </div>
     </div>
   );
