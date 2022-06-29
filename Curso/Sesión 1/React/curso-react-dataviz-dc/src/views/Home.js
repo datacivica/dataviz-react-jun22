@@ -1,5 +1,10 @@
 // MVC -> Model - View - Controller
+import { useEffect } from "react";
 import { ResponsiveStream } from "@nivo/stream";
+import migra from "../assets/csv/API_SM.POP.NETM_DS2_es_csv_v2_4169069.csv";
+import fondo from "../assets/img/6E164A4F-9138-4222-841E-BDC7ED815A5C.JPG";
+
+import * as d3 from "d3";
 
 const MyResponsiveStream = () => {
   const data = [
@@ -172,13 +177,39 @@ const MyResponsiveStream = () => {
 };
 
 const Home = () => {
+  useEffect(async () => {
+    const data = await d3.csv(migra);
+
+    console.log({ data });
+
+    // filter
+    // datamx = data['Country Code' == "MEX"]
+
+    const datamx = data.filter(d => d["Country Code"] === "MEX");
+
+    console.log({ datamx });
+
+    console.log(Object.keys(datamx));
+    console.log(Object.keys(datamx[0]));
+
+    /*
+
+    1. Obtengo columnas de la observación
+    2. Ciclo sobre las columnas
+    3. Con el nombre de cada columna leo y selecciono de la base de datos
+    4. Creo un nuevo objecto con cada una de las columnas
+
+    {1960: 23},
+    {1961: 50},
+    */
+  });
+
   return (
     <div data-theme="cupcake">
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage:
-            "url(https://images.unsplash.com/photo-1501526029524-a8ea952b15be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)",
+          backgroundImage: `url(${fondo})`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
