@@ -177,31 +177,34 @@ const MyResponsiveStream = () => {
 };
 
 const Home = () => {
-  useEffect(async () => {
-    const data = await d3.csv(migra);
+  useEffect(() => {
+    async function fetchData() {
+      const data = await d3.csv(migra);
 
-    console.log({ data });
+      console.log({ data });
 
-    // filter
-    // datamx = data['Country Code' == "MEX"]
+      // filter
+      // datamx = data['Country Code' == "MEX"]
 
-    const datamx = data.filter(d => d["Country Code"] === "MEX");
+      const datamx = data.filter(d => d["Country Code"] === "MEX");
 
-    console.log({ datamx });
+      console.log({ datamx });
 
-    console.log(Object.keys(datamx));
-    console.log(Object.keys(datamx[0]));
+      console.log(Object.keys(datamx));
+      console.log(Object.keys(datamx[0]));
 
-    /*
+      /*
 
-    1. Obtengo columnas de la observación
-    2. Ciclo sobre las columnas
-    3. Con el nombre de cada columna leo y selecciono de la base de datos
-    4. Creo un nuevo objecto con cada una de las columnas
+        1. Obtengo columnas de la observación
+        2. Ciclo sobre las columnas
+        3. Con el nombre de cada columna leo y selecciono de la base de datos
+        4. Creo un nuevo objecto con cada una de las columnas
 
-    {1960: 23},
-    {1961: 50},
-    */
+        {1960: 23},
+        {1961: 50},
+      */
+    }
+    fetchData();
   });
 
   return (
@@ -215,16 +218,13 @@ const Home = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn bg-primary">Get Started</button>
+            <h1 className="mb-5 text-5xl font-bold">México, ¿cómo vamos?</h1>
+            <p className="mb-5">Con datos abiertos del banco mundial</p>
+            <button className="btn bg-primary">Comenzar</button>
           </div>
         </div>
-
+      </div>
+      <div className="max-w-4xl">
         <div className="w-full h-[600px]">
           <MyResponsiveStream />
         </div>
