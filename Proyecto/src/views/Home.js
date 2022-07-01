@@ -1,6 +1,7 @@
 // MVC -> Model - View - Controller
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { ResponsiveStream } from "@nivo/stream";
+import { ResponsiveLine } from "@nivo/line";
 import migra from "../assets/csv/API_SM.POP.NETM_DS2_es_csv_v2_4169069.csv";
 import fondo from "../assets/img/6E164A4F-9138-4222-841E-BDC7ED815A5C.JPG";
 
@@ -176,23 +177,109 @@ const MyResponsiveStream = () => {
   );
 };
 
+const MyResponsiveLine = ({ data /* see data tab */ }) => (
+  <ResponsiveLine
+    data={data}
+    margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+    xScale={{ type: "point" }}
+    yScale={{
+      type: "linear",
+      min: "auto",
+      max: "auto",
+      stacked: true,
+      reverse: false,
+    }}
+    yFormat=" >-.2f"
+    axisTop={null}
+    axisRight={null}
+    axisBottom={{
+      orient: "bottom",
+      tickSize: 5,
+      tickPadding: 5,
+      tickRotation: 0,
+      legend: "transportation",
+      legendOffset: 36,
+      legendPosition: "middle",
+    }}
+    axisLeft={{
+      orient: "left",
+      tickSize: 5,
+      tickPadding: 5,
+      tickRotation: 0,
+      legend: "count",
+      legendOffset: -40,
+      legendPosition: "middle",
+    }}
+    pointSize={10}
+    pointColor={{ theme: "background" }}
+    pointBorderWidth={2}
+    pointBorderColor={{ from: "serieColor" }}
+    pointLabelYOffset={-12}
+    useMesh={true}
+    legends={[
+      {
+        anchor: "bottom-right",
+        direction: "column",
+        justify: false,
+        translateX: 100,
+        translateY: 0,
+        itemsSpacing: 0,
+        itemDirection: "left-to-right",
+        itemWidth: 80,
+        itemHeight: 20,
+        itemOpacity: 0.75,
+        symbolSize: 12,
+        symbolShape: "circle",
+        symbolBorderColor: "rgba(0, 0, 0, .5)",
+        effects: [
+          {
+            on: "hover",
+            style: {
+              itemBackground: "rgba(0, 0, 0, .03)",
+              itemOpacity: 1,
+            },
+          },
+        ],
+      },
+    ]}
+  />
+);
+
 const Home = () => {
+  const [datamx, setDatamx] = useState([]);
   useEffect(() => {
     async function fetchData() {
+      // lectura
+
       const data = await d3.csv(migra);
 
-      console.log({ data });
+      // console.log({ data });
 
-      // filter
-      // datamx = data['Country Code' == "MEX"]
+      // filtrar
+      // mx = data['Country Code' == "MEX"]
+      // mx -> data %>% filter(`COUNTRY CODE` = "MEX")
 
-      const datamx = data.filter(d => d["Country Code"] === "MEX");
+      const mx = data.filter(d => d["Country Code"] === "MEX");
 
-      console.log({ datamx });
+      //console.log({ mx });
 
-      console.log(Object.keys(datamx));
-      console.log(Object.keys(datamx[0]));
+      // colnames(mx)
+      // console.log(Object.keys(mx));
+      // console.log(Object.keys(mx[0]));
 
+      // data %>% mutate(total = total*100)
+
+      const _datamx = await Object.keys(mx[0]).map(column => {
+        const obj = {};
+
+        obj[column] = mx[0][column];
+
+        return obj;
+      });
+
+      console.log(_datamx);
+
+      setDatamx(_datamx);
       /*
 
         1. Obtengo columnas de la observación
@@ -205,7 +292,7 @@ const Home = () => {
       */
     }
     fetchData();
-  });
+  }, []);
 
   return (
     <div data-theme="cupcake">
@@ -225,6 +312,9 @@ const Home = () => {
         </div>
       </div>
       <div className="max-w-4xl">
+        <div className="w-full h-[600px]">
+          {/* <MyResponsiveLine data={datamx ? datamx : []} /> */}
+        </div>
         <div className="w-full h-[600px]">
           <MyResponsiveStream />
         </div>
